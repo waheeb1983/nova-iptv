@@ -1,0 +1,6 @@
+{
+  "name": "Nova IPTV",
+  "description": "A sleek, premium IPTV streaming player with curated categories, search, custom playlists, and immersive performance player controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

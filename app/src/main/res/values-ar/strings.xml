@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">نوفا IPTV</string>
+    <string name="tab_discover">استكشاف</string>
+    <string name="tab_live_feed">البث المباشر</string>
+    <string name="tab_favorites">المفضلة</string>
+    <string name="quick_select">الاختيار السريع</string>
+    
+    <string name="sports_channels">القنوات الرياضية ⚽</string>
+    <string name="sports_channels_desc">البطولات الدولية المباشرة والمباريات والسباقات الرياضية</string>
+    
+    <string name="country_regional">قنوات الدول والأقاليم 🌍</string>
+    <string name="country_regional_desc">القنوات المحلية والشبكات وبث القنوات المصنفة حسب بلد المنشأ</string>
+    
+    <string name="specialty_genres">التخصصات والأخبار 🎬</string>
+    <string name="specialty_genres_desc">برامج مخصصة، شبكات الأخبار المباشرة، الموسيقى وبرامج الأطفال والترفيه</string>
+    
+    <string name="custom_playlists">قوائم التشغيل المخصصة</string>
+    <string name="custom_playlists_desc">استيراد معايير M3U من الخارج</string>
+    <string name="import_button">استيراد</string>
+    
+    <string name="no_custom_playlists">لم يتم العثور على قوائم تشغيل مخصصة</string>
+    <string name="click_import_desc">انقر فوق استيراد لإضافة رابط خارجي</string>
+    
+    <string name="playlist_name_label">اسم قائمة التشغيل</string>
+    <string name="playlist_name_placeholder">مثال: قائمة IPTV الخاصة بي</string>
+    <string name="playlist_m3u_label">رابط ملف M3U</string>
+    <string name="playlist_m3u_placeholder">https://example.com/stream.m3u</string>
+    
+    <string name="cancel_button">إلغاء</string>
+    <string name="save_playlist_button">حفظ قائمة التشغيل</string>
+    <string name="import_iptv_catalog_title">استيراد كتالوج IPTV</string>
+    
+    <string name="search_channels_placeholder">البحث عن اسم القناة...</string>
+    <string name="no_active_catalog">لم يتم اختيار قائمة قنوات نشطة</string>
+    <string name="parsing_index_streams">جاري تحليل بث القنوات...</string>
+    <string name="load_failure">حدث فشل في التحميل</string>
+    <string name="no_matching_streams">لم يتم العثور على قنوات مطابقة</string>
+    <string name="refine_name_queries">يرجى تعديل كلمات البحث أو اختيار تصنيف آخر</string>
+    
+    <string name="my_tv_library">مكتبة التلفاز الخاصة بي</string>
+    <string name="invalid_streams">روابط معطلة</string>
+    <string name="tv_library_desc">القنوات المفضلة التي تم حفظها بأمان في قاعدة البيانات المحلية (Room)</string>
+    <string name="invalid_streams_desc">الروابط غير الصالحة التي تم رصدها تلقائياً أثناء التشغيل المستمر</string>
+    
+    <string name="tab_favorites_with_count">المفضلة (%1$d)</string>
+    <string name="tab_failing_with_count">المعطلة (%1$d)</string>
+    
+    <string name="tv_deck_empty">قائمتك المفضلة فارغة</string>
+    <string name="tv_deck_empty_desc">انقر فوق رمز النجمة بأي قناة في الكتالوج لإضافتها للمفضلة.</string>
+    
+    <string name="stream_validator_title">فاحص جودة روابط التشغيل</string>
+    <string name="stream_validator_desc">افحص جميع القنوات المحملة للتحقق من عدم الاتصال والتأكد من عمل الروابط أو تعطلها تلقائياً.</string>
+    <string name="verify_filter_catalog">فحص وتصفية القنوات</string>
+    
+    <string name="scanning_playlist">جاري الفحص المباشر لقائمة التشغيل...</string>
+    <string name="checked_count">تم فحص: %1$d من %2$d قناة</string>
+    <string name="checking_stream">جاري التحقق من القناة: %1$s</string>
+    <string name="stop_diagnostics">إيقاف الفحص والتشخيص</string>
+    
+    <string name="scan_diagnostics_completed">اكتمل فحص السيرفر والروابط</string>
+    <string name="scan_diagnostics_desc">انتهى الفحص للتحديد الحالي:\n• قنوات نشطة تعمل: %1$d\n• روابط معطلة تم استبعادها: %2$d</string>
+    <string name="dismiss_button">إغلاق</string>
+    <string name="re_validate_button">إعادة الفحص</string>
+    
+    <string name="no_broken_links">لا يوجد أي روابط معطلة حالياً</string>
+    <string name="broken_links_help">جميع قنوات البث تعمل بشكل رائع. سيتم تجميع أي انقطاع بالبث أو توقف للخادم وتفاصيله هنا تلقائياً.</string>
+    <string name="dead_links_tracked">%1$d رابط معطل تم رصده</string>
+    <string name="delete_all">حذف الكل</string>
+    
+    <string name="toast_rechecking_signal">جاري التحقق من الإشارة: %1$s…</string>
+    <string name="toast_verified_restored">تم إصلاح واستعادة %1$s كقناة نشطة بنجاح!</string>
+    <string name="toast_still_failing">اختبار الإشارة: رابط بث %1$s لا يزال معطلاً.</string>
+    
+    <string name="live_broadcast_badge">بث مباشر</string>
+    <string name="aspect_ratio_label">أبعاد الشاشة</string>
+    <string name="playback_speed_label">سرعة التشغيل</string>
+    <string name="fullscreen_label">كامل الشاشة وتدوير</string>
+    
+    <string name="channels_count_text">%1$d قناة</string>
+    
+    <string name="err_supply_valid_title">يرجى إدخال اسم صحيح</string>
+    <string name="err_supply_valid_url">يرجى إدخال رابط M3U صحيح (HTTP/HTTPS)</string>
+    <string name="subtitle_hd_live">بث حي فائق الجودة وبأقل قدر من التأخير.</string>
+</resources>

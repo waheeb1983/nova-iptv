@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Nova IPTV</string>
+    <string name="tab_discover">Discover</string>
+    <string name="tab_live_feed">Live Feed</string>
+    <string name="tab_favorites">Favorites</string>
+    <string name="quick_select">Quick Select</string>
+    
+    <string name="sports_channels">Sports Channels ⚽</string>
+    <string name="sports_channels_desc">Live international tournaments, sporting events, and races</string>
+    
+    <string name="country_regional">Country &amp; Regional Broadcasters 🌍</string>
+    <string name="country_regional_desc">Local channels, networks, and streams categorized by national origin</string>
+    
+    <string name="specialty_genres">Specialty Genres &amp; News 🎬</string>
+    <string name="specialty_genres_desc">Curated themed programs, live news grids, music loops, and kids entertainment</string>
+    
+    <string name="custom_playlists">Custom Playlists</string>
+    <string name="custom_playlists_desc">Import external M3U parameters</string>
+    <string name="import_button">Import</string>
+    
+    <string name="no_custom_playlists">No custom playlists found</string>
+    <string name="click_import_desc">Click import to write an external URL</string>
+    
+    <string name="playlist_name_label">Playlist Name</string>
+    <string name="playlist_name_placeholder">e.g. My Premium IPTV</string>
+    <string name="playlist_m3u_label">Playlist M3U Link</string>
+    <string name="playlist_m3u_placeholder">https://example.com/stream.m3u</string>
+    
+    <string name="cancel_button">Cancel</string>
+    <string name="save_playlist_button">Save Playlist</string>
+    <string name="import_iptv_catalog_title">Import IPTV Catalog</string>
+    
+    <string name="search_channels_placeholder">Search channel name...</string>
+    <string name="no_active_catalog">No active catalog selected</string>
+    <string name="parsing_index_streams">Parsing index streams...</string>
+    <string name="load_failure">Load failure occurred</string>
+    <string name="no_matching_streams">No match streams found</string>
+    <string name="refine_name_queries">Refine name queries or category chips</string>
+    
+    <string name="my_tv_library">My TV Library</string>
+    <string name="invalid_streams">Invalid Streams</string>
+    <string name="tv_library_desc">Favored stream indicators synced securely in Room</string>
+    <string name="invalid_streams_desc">Self-detected failing URLs during continuous playback</string>
+    
+    <string name="tab_favorites_with_count">Favorites (%1$d)</string>
+    <string name="tab_failing_with_count">Failing (%1$d)</string>
+    
+    <string name="tv_deck_empty">Your TV deck is empty</string>
+    <string name="tv_deck_empty_desc">Tap the star icon on any channel in live catalog to add it to favorites.</string>
+    
+    <string name="stream_validator_title">Playlist Stream Validator</string>
+    <string name="stream_validator_desc">Scan all loaded channels to verify which are offline or unreachable. They will gather in this invalid flows tab automatically.</string>
+    <string name="verify_filter_catalog">Verify &amp; Filter Catalog</string>
+    
+    <string name="scanning_playlist">Scanning Playlist…</string>
+    <string name="checked_count">Checked: %1$d of %2$d channels</string>
+    <string name="checking_stream">Checking stream: %1$s</string>
+    <string name="stop_diagnostics">Stop Diagnostics</string>
+    
+    <string name="scan_diagnostics_completed">Scan Diagnostics Completed</string>
+    <string name="scan_diagnostics_desc">Done scanning current list selection:\n• Found active streams: %1$d\n• Filtered failing URLs: %2$d</string>
+    <string name="dismiss_button">Dismiss</string>
+    <string name="re_validate_button">Re-validate</string>
+    
+    <string name="no_broken_links">No non-working streams detected</string>
+    <string name="broken_links_help">Links are performing perfectly. Any streaming playback timeouts or host unreachability errors will gather here automatically.</string>
+    <string name="dead_links_tracked">%1$d dead links tracked</string>
+    <string name="delete_all">Delete All</string>
+    
+    <string name="toast_rechecking_signal">Rechecking signal: %1$s…</string>
+    <string name="toast_verified_restored">%1$s verified working &amp; restored!</string>
+    <string name="toast_still_failing">Tested: %1$s stream still failing.</string>
+    
+    <string name="live_broadcast_badge">LIVE BROADCAST</string>
+    <string name="aspect_ratio_label">Aspect Ratio</string>
+    <string name="playback_speed_label">Playback Speed</string>
+    <string name="fullscreen_label">Fullscreen &amp; Rotate</string>
+    
+    <string name="channels_count_text">%1$d channels</string>
+    
+    <string name="err_supply_valid_title">Please supply a valid title</string>
+    <string name="err_supply_valid_url">Please enter a valid HTTP/HTTPS link</string>
+    <string name="subtitle_hd_live">High definition live streaming. Zero latency feeds.</string>
+</resources>
